@@ -33,7 +33,7 @@
 	</head>
 	<body>
 		<div class="mt-3">
-			<form id="file_upload_form" method="post" enctype="multipart/form-data">
+			<form id="file_upload_form" method="post" enctype="multipart/form-data" action="upload.php">
 				<div id="file_drag_drop_area" class="text-center p-3 rounded col-md-10 mx-auto" style="border:3px #000000 dashed;">
 					ここにファイルをドラッグ&ドロップ<br/>
 					<span>または</span><br/>
